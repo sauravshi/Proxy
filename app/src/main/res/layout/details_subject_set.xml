@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Subject Code"
+       android:textSize="30sp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/etsqlcode"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Name"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/etsqlname"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="35dp"
+        android:layout_gravity="end"
+        android:id="@+id/bsqlupdate"
+        />
+   <Space
+       android:layout_width="wrap_content"
+       android:layout_height="15dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textSize="35dp"
+        android:layout_gravity="end"
+        android:id="@+id/bsqlview"/>
+</LinearLayout>
